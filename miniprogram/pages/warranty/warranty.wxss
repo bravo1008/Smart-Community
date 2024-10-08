@@ -1,0 +1,60 @@
+/* pages/warranty/warranty.wxss */
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('/assets/login.png') no-repeat center center;
+  background-size: cover;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%; /* 设置按钮的宽度 */
+}
+
+.button {
+  position: relative; /* 使子元素绝对定位相对于此元素 */
+  background-color: #1071f0; /* 按钮背景颜色 */
+  color: white;
+  font-size: 24px;
+  border-radius: 8px; /* 圆角 */
+  padding: 30rpx; /* 内边距 */
+  margin: 50rpx 0; /* 上下间隔 */
+  text-align: center;
+}
+
+.notification-badge {
+  position: absolute; /* 绝对定位 */
+  top: -5rpx; /* 调整位置 */
+  right: -10rpx; /* 调整位置 */
+  width: 54rpx;
+  height: 54rpx;
+  background-color: red; /* 红色背景 */
+  border-radius: 50%; /* 圆形 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-text {
+  font-size: 14px; /* 字体大小 */
+  color: white; /* 字体颜色 */
+}
+
+.footer {
+  position:absolute;
+  bottom:15px;
+  display: flex;
+  justify-content: space-around; /* 均匀分配 */
+  width: 100%;
+  padding: 10rpx 0;
+  background-color:transparent; /* 底部背景色 */
+}
+
+.footer-item {
+  font-size: 18px; /* 字体大小 */
+  color: #1071f0; /* 字体颜色 */
+}

@@ -1,0 +1,56 @@
+/* pages/home/home.wxss */
+/* 设置背景图和整体布局 */
+.home {
+  height: 100vh; /* 使用 100vh 确保占满视口高度 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 垂直居中 */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%; /* 宽度略小于 100% */
+  background: url('/assets/home.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* 垂直居中 */
+  padding: 0; /* 上下填充 */
+  box-sizing: border-box;
+}
+
+
+/* 标题样式 */
+.title-wrapper {
+  margin-bottom: 20px; /* 标题和按钮之间的间距 */
+}
+
+.title {
+  font-size: 5rem;
+  color: #1071f0; /* 标题颜色 */
+  font-weight: bold;
+}
+
+/* 登录按钮样式 */
+.login-wrapper{
+  margin-top:26vh;
+  margin-bottom:10vh;
+}
+
+.login-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #1071f0; /* 按钮背景色 */
+  color: white;
+  font-size: 24px;
+  border-radius: 25px; /* 圆角按钮 */
+  text-align: center;
+  line-height: 50px; /* 垂直居中 */
+}
+
+
+
+

@@ -1,0 +1,82 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+  background:url('/assets/login.png') no-repeat center center;
+  background-size: cover;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 80%;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: -20vh;
+}
+
+.user-motto{
+  width: 200px;
+  height: 50px;
+  background-color: #1071f0; /* 按钮背景色 */
+  color: white;
+  font-size: 24px;
+  border-radius: 25px; /* 圆角按钮 */
+  text-align: center;
+  line-height: 50px; /* 垂直居中 */
+}
+
+.avatar-wrapper {
+  padding: 0;
+  width: 66px !important;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  display: block;
+  width: 66px;
+  height: 66px;
+}
+
+.nickname-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: .5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: .5px solid rgba(0, 0, 0, 0.5);
+  color: black;
+}
+
+.nickname-label {
+  width: 105px;
+  font-size:1.3rem;
+}
+
+.nickname-input {
+  flex: 1;
+  font-size:1.3rem;
+}
+
+
+
+

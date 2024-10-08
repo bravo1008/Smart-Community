@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<scroll-view class="home" scroll-y type="list">
+  <view class="container">
+    <!-- 标题 -->
+    <view class="title-wrapper">
+      <text class="title">{{motto}}</text>
+    </view>
+
+    <!-- 登录按钮 -->
+    <view class="login-wrapper">
+      <button class="login-btn" bindtap="onLoginTap">登录</button>
+    </view>
+  </view>
+</scroll-view>
+
