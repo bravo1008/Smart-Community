@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/submitProblems/submitProblems",
     "pages/home/home",
     "pages/index/index",
     "pages/warranty/warranty",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/submitProblems/submitProblems"
   ],
   "window": {
     "navigationBarTextStyle": "black",
