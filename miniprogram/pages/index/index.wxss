@@ -12,7 +12,7 @@ page {
   background-size: cover;
 }
 
-.userinfo {
+/* .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,20 +30,20 @@ page {
 
 .usermotto {
   margin-top: -20vh;
-}
+} */
 
-.user-motto{
+/* .user-motto{
   width: 200px;
   height: 50px;
-  background-color: #1071f0; /* 按钮背景色 */
+  background-color: #1071f0; /* 按钮背景色 
   color: white;
   font-size: 24px;
-  border-radius: 25px; /* 圆角按钮 */
+  border-radius: 25px; /* 圆角按钮 
   text-align: center;
-  line-height: 50px; /* 垂直居中 */
-}
+  line-height: 50px; /* 垂直居中 
+} */
 
-.avatar-wrapper {
+/* .avatar-wrapper {
   padding: 0;
   width: 66px !important;
   border-radius: 8px;
@@ -75,8 +75,78 @@ page {
 .nickname-input {
   flex: 1;
   font-size:1.3rem;
+} 
+*/
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 40px; /* 在页面顶部留一些空隙 */
+}
+
+/* 动态文字效果 */
+.welcome-text {
+  font-size: 28px;
+  color: #1071f0;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0.2; }
+  100% { opacity: 1; }
+}
+
+/* 输入框容器 */
+.input-container {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: .5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: .5px solid rgba(0, 0, 0, 0.5);
+  color: black;
+  margin-bottom: 20px; /* 增加输入框下方的间距 */
+}
+
+/* 图标样式 */
+.input-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+/* 输入框样式 */
+.input-box {
+  flex: 1;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  color: #333; /* 确保输入框文字为深色 */
+  font-family: 'Arial', sans-serif;
+}
+
+.input-box::placeholder {
+  color: #999; /* 设置占位符颜色，使其清晰可见 */
+}
+
+/* 按钮样式 */
+.code-button, .login-button {
+  width: 100%; /* 按钮占满容器宽度 */
+  padding: 12px; /* 增加按钮的内边距 */
+  background-color: #1071f0;
+  color: white;
+  font-size: 18px; /* 减小字体大小以适应按钮 */
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 20px; /* 为按钮添加外边距，确保它与上方元素之间有间距 */
 }
 
 
+.code-button:disabled {
+  background-color: #999;
+}
 
 
