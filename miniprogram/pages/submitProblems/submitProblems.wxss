@@ -1,0 +1,207 @@
+/* pages/submitProblems.wxss */
+.container {
+  padding: 20rpx;
+  background-color: #ffffff;
+}
+
+/* 页面头部 */
+.header {
+  margin-bottom: 40rpx;
+  margin-top: 90rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  align-items: center;
+}
+
+.input-section {
+  margin-bottom: 40rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* 确保标签和输入框左对齐 */
+}
+
+label {
+  font-weight: bold;
+  /* display: block; */
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  color: #333;
+}
+
+/* 标题输入框样式 */
+.title-textarea {
+  width: 700rpx;
+  height: 150rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  border: 1px solid #ccc;
+  border-radius: 15rpx;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* 问题描述输入框样式 */
+.description-textarea {
+  width: 700rpx;
+  height: 200rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  border: 1px solid #ccc;
+  border-radius: 15rpx;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* 地理位置输入框样式 */
+.location-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+
+/* 手机号输入框样式 */
+.phone-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+
+/* 邮箱输入框样式 */
+.email-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+
+/* 微信输入框样式 */
+.wechat-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+
+/* 提交按钮样式 */
+.submit-button {
+  background-color: #007aff;
+  color: white;
+  width: 100%;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+}
+
+
+.upload-area {
+  width: 100%;
+  height: 200rpx;
+  border: 1px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+}
+
+.upload-placeholder {
+  text-align: center;
+  color: #aaa;
+}
+
+.upload-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.media-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+
+.preview-image, .preview-video {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.location-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-input{
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+}
+
+.location-button {
+  width: 250rpx;
+  height: 80rpx;
+  background-color: #007aff;
+  color: white;
+  border-radius: 10rpx;
+  text-align: center;
+  margin-left: 20rpx;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.contact-input {
+  flex: 1;
+  height: 80rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+
+.submit-button {
+  background-color: #007aff;
+  color: white;
+  width: 100%;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+}
+
+.link {
+  color: #007aff;
+}
