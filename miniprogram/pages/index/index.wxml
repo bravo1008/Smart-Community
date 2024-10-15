@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
-    <view class="userinfo">
+    <!-- <view class="userinfo">
       <block wx:if="{{canIUseNicknameComp && !hasUserInfo}}">
         <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
           <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
@@ -22,6 +22,30 @@
     </view>
     <view class="usermotto" bindtap="onMottoTap">
       <text class="user-motto">{{motto}}</text>
+    </view> -->
+    <view class="login-container">
+      <!-- 动态“欢迎使用”文字 -->
+      <text class="welcome-text">欢迎使用</text>
+
+      <!-- 手机号码输入框 -->
+      <view class="input-container">
+        <image class="input-icon" src="/assets/phone-icon.png"></image>
+        <input class="input-box" type="number" placeholder="请输入您的手机号" maxlength="11" bindinput="onPhoneNumberInput" value="{{phoneNumber}}" />
+      </view>
+
+      <!-- 验证码输入框 -->
+      <view class="input-container">
+        <image class="input-icon" src="/assets/code-icon.png"></image>
+        <input class="input-box" type="number" placeholder="请输入验证码" maxlength="6" bindinput="onVerificationCodeInput" value="{{verificationCode}}" />
+      </view>
+
+      <!-- 获取验证码按钮 -->
+      <button class="code-button" bindtap="sendVerificationCode" disabled="{{isCodeSent}}">
+        {{isCodeSent ? countdown + '秒后重发' : '获取验证码'}}
+      </button>
+      
+      <!-- 登录按钮 -->
+      <button class="login-button" bindtap="onLogin">登录</button>
     </view>
   </view>
-</scroll-view>
+  </scroll-view>
