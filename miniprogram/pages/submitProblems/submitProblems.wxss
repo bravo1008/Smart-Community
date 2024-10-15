@@ -1,0 +1,194 @@
+/* pages/submitProblems.wxss */
+.container {
+  padding: 20rpx;
+  background-color: #ffffff;
+}
+
+/* 页面头部 */
+.header {
+  margin-bottom: 40rpx;
+  margin-top: 85rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  align-items: center;
+}
+
+.input-section {
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* 确保标签和输入框左对齐 */
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  font-size: 28rpx;
+  margin-bottom: 15rpx;
+  color: #333;
+}
+
+/* 标题输入框样式 */
+.title-textarea {
+  width: 680rpx;
+  height: 150rpx;
+  padding: 20rpx;
+  font-size: 26rpx;
+  border: 1px solid #ccc;
+  border-radius: 15rpx;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* 问题描述输入框样式 */
+.description-textarea {
+  width: 680rpx;
+  height: 400rpx;
+  padding: 20rpx;
+  font-size: 24rpx;
+  border: 1px solid #ccc;
+  border-radius: 15rpx;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.upload-area {
+  width: 680rpx;
+  height: 400rpx;
+  border: 1px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  flex-direction: column;
+}
+
+.upload-placeholder {
+  text-align: center;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-icon {
+  width: 80rpx;
+  height: 80rpx;
+  align-items: center;
+  margin-bottom: 0rpx;
+}
+
+.upload-text{
+  margin-top:30rpx;
+}
+
+.media-preview {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+
+.preview-image, .preview-video {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 10rpx;
+}
+
+.location-section {
+  margin-top:13rpx;
+  width: 680rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* 地理位置输入框样式 */
+.location-input{
+  flex: 1;
+  height: 60rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  margin-left:15rpx;
+}
+
+.location-button {
+  width: 105rpx!important; /* 调整宽度 */
+  height: 35rpx; /* 调整高度 */
+  background-color: #007aff;
+  color: white;
+  border-radius: 10rpx; /* 较小的圆角 */
+  text-align: center;
+  font-size: 26rpx; 
+}
+
+.contact-section {
+  width: 680rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top:10rpx;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25rpx;
+  margin-top:20rpx;
+}
+
+/* 手机号输入框样式 */
+.phone-input {
+  flex: 1;
+  height: 60rpx;
+  border: 1px solid rgba(204, 204, 204, 0.582);
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  margin-left: 20rpx;
+}
+
+/* 邮箱输入框样式 */
+.email-input {
+  flex: 1;
+  height: 60rpx;
+  border: 1px solid rgba(204, 204, 204, 0.582);
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  margin-left: 47rpx;
+}
+
+/* 微信输入框样式 */
+.wechat-input {
+  flex: 1;
+  height: 60rpx;
+  border: 1px solid rgba(204, 204, 204, 0.582);
+  border-radius: 10rpx;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  margin-left: 47rpx;
+}
+
+.submit-button {
+  background-color: #007aff;
+  color: white;
+  padding: 20rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+.custom-checkbox {
+  transform: scale(0.8); /* 缩小到80% */
+  transform-origin: left top; /* 确保缩放从左上角开始，不会影响布局 */
+}
+
+.link {
+  color: #007aff;
+}
