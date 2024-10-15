@@ -3,13 +3,13 @@
   <view class="container">
   <view class="button-wrapper">
     <view class="button">
-      <text class="button-text">保修列表</text>
+      <text class="button-text">报修列表</text>
       <view class="notification-badge" wx:if="{{notificationCount > 0}}">
         <text class="badge-text">{{notificationCount}}</text>
       </view>
     </view>
     <view class="button">
-      <text class="button-text">保修录入</text>
+      <text class="button-text" bindtap="onSubmit">报修录入</text>
     </view>
   </view>
 

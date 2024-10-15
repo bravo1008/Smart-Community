@@ -8,6 +8,12 @@ Page({
     notificationCount: 3, // 示例消息数量
   },
 
+  onSubmit: function() {
+    wx.navigateTo({
+      url: '/pages/submitProblems/submitProblems' // 假设有一个登录页面
+    });
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
