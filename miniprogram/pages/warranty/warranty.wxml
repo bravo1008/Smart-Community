@@ -2,8 +2,8 @@
 <scroll-view class="home" scroll-y type="list">
   <view class="container">
   <view class="button-wrapper">
-    <view class="button">
-      <text class="button-text">报修列表</text>
+    <view class="button" bind:tap="goToInspection">
+      <text class="button-text">巡检模式</text>
       <view class="notification-badge" wx:if="{{notificationCount > 0}}">
         <text class="badge-text">{{notificationCount}}</text>
       </view>
