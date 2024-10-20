@@ -1,0 +1,61 @@
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url('/assets/login.png') no-repeat center center;
+  background-size: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:70%;
+  width:60%;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 70%;
+  margin-bottom: 20%;
+}
+
+.info {
+  height:50%;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  height:20%;
+  justify-content: space-between;
+  margin: 5px 0;
+  font-size:20px;
+}
+
+.title{
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(125,177,245,0.8);
+}
+
+.footer {
+  position:absolute;
+  bottom:15px;
+  display: flex;
+  justify-content: space-around; /* 均匀分配 */
+  width: 100%;
+  padding: 10rpx 0;
+  background-color:transparent; /* 底部背景色 */
+}
+
+.footer-item {
+  font-size: 18px; /* 字体大小 */
+  color: #1071f0; /* 字体颜色 */
+}

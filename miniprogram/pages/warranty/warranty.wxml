@@ -14,8 +14,8 @@
   </view>
 
   <view class="footer">
-    <navigator url="../index/index" class="footer-item">首页</navigator>
-    <navigator url="../my/my" class="footer-item">我的</navigator>
+    <navigator url="../warranty/warranty" class="footer-item">首页</navigator>
+    <navigator url="../personalCenter/personalCenter" class="footer-item">我的</navigator>
   </view>
 </view>
 </scroll-view>
