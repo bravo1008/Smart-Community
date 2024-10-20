@@ -3,10 +3,7 @@
   <view class="container">
   <view class="button-wrapper">
     <view class="button">
-      <text class="button-text">报修列表</text>
-      <view class="notification-badge" wx:if="{{notificationCount > 0}}">
-        <text class="badge-text">{{notificationCount}}</text>
-      </view>
+      <text class="button-text">巡检模式</text>
     </view>
     <view class="button">
       <text class="button-text" bindtap="onSubmit">报修录入</text>
@@ -14,8 +11,8 @@
   </view>
 
   <view class="footer">
-    <navigator url="../index/index" class="footer-item">首页</navigator>
-    <navigator url="../my/my" class="footer-item">我的</navigator>
+    <navigator url="../warranty/warranty" class="footer-item">首页</navigator>
+    <navigator url="../personalCenter/personalCenter" class="footer-item">我的</navigator>
   </view>
 </view>
 </scroll-view>

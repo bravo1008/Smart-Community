@@ -4,7 +4,8 @@
     "pages/index/index",
     "pages/warranty/warranty",
     "pages/logs/logs",
-    "pages/submitProblems/submitProblems"
+    "pages/submitProblems/submitProblems",
+    "pages/personalCenter/personalCenter"
   ],
   "window": {
     "navigationBarTextStyle": "black",
