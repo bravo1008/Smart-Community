@@ -1,31 +1,21 @@
-// pages/warranty/warranty.ts
+// pages/inspection/inspection.ts
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    notificationCount: 0, // 示例消息数量
-  },
-  //跳转到巡检模式页面的功能函数
-  goToInspection:function(){
-    wx.navigateTo({
-      url:'/pages/inspection/inspection'
-    })
-  },
-  onSubmit: function() {
-    wx.navigateTo({
-      url: '/pages/submitProblems/submitProblems' // 假设有一个登录页面
-    });
-  },
 
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad() {
-
+    const ctx = wx.createCameraContext()
   },
-
+  error(e: any) {
+    console.log(e.detail)
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

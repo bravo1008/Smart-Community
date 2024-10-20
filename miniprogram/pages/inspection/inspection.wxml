@@ -1,0 +1,5 @@
+<view class="page-body">
+  <view>
+    <camera id="myCamera" device-position="front" flash="off" binderror="error" style="width: 100%; height: 500px;"></camera>
+  </view>
+</view>
